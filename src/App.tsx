@@ -28,7 +28,7 @@ export default function App() {
   const handleTableSelect = useCallback(
     async (entry: KeyTableEntry) => {
       if (cachedRules?.id === entry.id) return; // 同じなら再fetchしない
-      const rules = await loadRomajiRules(entry.path);
+      const rules = await loadRomajiRules(`${import.meta.env.BASE_URL}` + entry.path);
       setCachedRules({ id: entry.id, rules });
     },
     [cachedRules?.id]

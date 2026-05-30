@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")!).render(
         <title>CibiiTyping</title>
         <link rel="icon" type="image/png" href="/l4mp_lang_icon.png" />
       </head>
-      <App />
     </html>
+    <App />
   </StrictMode>
 );
