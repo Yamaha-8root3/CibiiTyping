@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cibii-no_se",
+    "label": "Cibii 追加規則あり",
+    "path": "/keytable/keytable-no_se.txt",
+    "description": ""
+  },
+  {
+    "id": "cibii-no_se-no_add",
+    "label": "Cibii 追加規則なし",
+    "path": "/keytable/keytable-no_se-no_add.txt",
+    "description": ""
+  },
+  {
+    "id": "cibii-no_se-no_add-US",
+    "label": "Cibii 追加規則なし US配置",
+    "path": "/keytable/keytable-no_se-no_add-US.txt",
+    "description": ""
+  },
+  {
+    "id": "cibii-no_se-US",
+    "label": "Cibii 追加規則あり US配置",
+    "path": "/keytable/keytable-no_se-US.txt",
+    "description": ""
+  }
+]
