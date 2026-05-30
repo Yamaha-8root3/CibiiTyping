@@ -134,7 +134,7 @@ export function SetupScreen({ problems, keyTables, lastConfig, cachedRules, onTa
           <br />
           LΛMPLIGHTトップは<a href="https://lamplight0.sakura.ne.jp/a/">こちら</a>
           <br />
-          ソースコード、バグ報告(特に文章の誤字など)はGithubにて
+          ソースコード、バグ報告(特に文章の誤字など)は<a href="https://github.com/Yamaha-8root3/CibiiTyping">Github</a>にて
         </p>
       </div>
     </div>
