@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")!).render(
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CibiiTyping</title>
-        <link rel="icon" type="image/png" href="/l4mp_lang_icon.png" />
+        <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}l4mp_lang_icon.png`} />
       </head>
     </html>
     <App />
