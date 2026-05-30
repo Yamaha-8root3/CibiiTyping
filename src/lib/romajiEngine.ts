@@ -61,6 +61,7 @@ export function getCandidates(rules: RomajiRule[], pending: string, reading: str
 // 全角→半角正規化
 export function normalizeChar(ch: string): string {
   // 全角英数記号 → 半角
+  // eslint-disable-next-line no-irregular-whitespace
   return ch.replace(/[！-～]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)).replace(/　/g, " "); // 全角スペース
 }
 

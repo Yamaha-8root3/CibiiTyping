@@ -27,7 +27,8 @@ function CandList({ items, label }: { items: Candidate[]; label: string }) {
   );
 }
 
-export function GameScreen({ state, candidates, onretry, onquit }: Props) {
+// export function GameScreen({ state, candidates, onretry, onquit }: Props) {
+export function GameScreen({ state, candidates, onquit }: Props) {
   const { problems, currentIndex, reading, readingPos, pending, elapsedMs, stats, config, wrongPending } = state;
   const current = problems[currentIndex];
 
